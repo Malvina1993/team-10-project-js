@@ -6,23 +6,31 @@
     color: var(--white-color);
 }
 
+/* Style by Header */
 .dark header {
     background-color: var(--black-color);
     border: 1.5px solid var(--white-color);
 }
 
-.dark .header-link {
-    fill: var(--white-color);
-}
 
 .dark .header-item-link {
     color: var(--white-color);
+    fill: var(--white-color);
 }
 
+.dark .header-item-link.current, 
 .dark .header-item-link:hover,
-.dark .header-item-link:focus {
-    color: var(--main-accent-color);
+.dark .header-item-link:focus{
+    color: var(--dark-bg-color);
+    fill: var(--dark-bg-color);
 }
+
+/* .dark .header-item-link:hover,
+.dark .header-item-link:focus {
+    color: var(--dark-bg-color);
+    fill: var(--dark-bg-color);
+
+} */
 
 .dark .hamburger {
     stroke: var(--white-color);
@@ -33,22 +41,27 @@
     stroke: var(--main-accent-color);
 }
 
+/* style by category */
+
 .dark .category {
     color: var(--gray-text-color-dark);
 }
 
-.dark .category:hover {
-    color: var(--yellow-accent-color);
-}
-
+.dark .category:hover,
 .dark .category.selected {
     color: var(--yellow-accent-color);
 }
+
+/* .dark .category.selected {
+    color: var(--yellow-accent-color);
+} */
 
 .dark .category-list::-webkit-scrollbar-thumb {
     background-color: var(--gray-text-color);
 }
 
+
+/* style by book blok  */
 .dark .categories-title {
     color: var(--white-color);
 }
@@ -69,13 +82,6 @@
     color: var(--gray-color);
 }
 
-
-.dark input {
-    border: 2px solid var(--light-bg-color);
-    color: var(--light-bg-color);
-    background: transparent;
-}
-
 .dark .see-more-btn {
     border: 2px solid var(--main-accent-color);
     color: var(--white-color);
@@ -84,8 +90,36 @@
 
 .dark .see-more-btn:hover,
 .dark .see-more-btn:focus {
-    border: 2px solid var(--main-accent-color);
-    color: var(--white-color);
     background: var(--main-accent-color);
 }
+
+/* style bu modal window */
+
+.dark .modal {
+    border: 2px solid var(--white-color);
+    background: var(--dark-bg-color);
+}
+
+.dark .modal-close-icon{
+    stroke: var(--white-color);
+}
+
+.dark .modal-book-title {
+    color: var(--white-color);
+}
+
+.dark .modal-book-descr {
+    color: var(--white-color);
+}
+/*stule by autorization window  */
+
+
+
+.dark input {
+    border: 2px solid var(--light-bg-color);
+    color: var(--light-bg-color);
+    background: transparent;
+}
+
+
 
